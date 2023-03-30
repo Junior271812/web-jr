@@ -330,6 +330,7 @@ footer {
 
 		font-size: 8px;
 		writing-mode: vertical-rl;
+		position: relative;
 		bottom: 40px; right: 40px;
     }
 
