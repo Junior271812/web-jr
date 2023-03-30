@@ -29,7 +29,8 @@ h1 {
 }
 
 .textfixo {
-
+	
+	display: flex;
 	font-family:'Roboto', sans-serif;
 	border-bottom-color: #4b4141;
 	border: 2px;
