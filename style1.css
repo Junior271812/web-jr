@@ -1,0 +1,396 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,300&display=swap');
+
+
+
+html {
+      
+	background: linear-gradient(to bottom right, #ffffff, #c6c3d6, #8b9792);
+}
+
+h1 {
+
+	font-family: 'Nosifer', cursive;
+	font-size: 53px;
+	background: -webkit-linear-gradient(left, red, rgb(196, 75, 75), green, rgb(255, 153, 0), blue, red);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+
+}
+
+.marca0 {
+
+	margin-top: -100px;
+	margin-left: 780px;
+	
+
+}
+
+.textfixo {
+
+	font-family:'Roboto', sans-serif;
+	border-bottom-color: #4b4141;
+	border: 2px;
+	border-style: solid;
+	width: 500px;
+	margin-left: -8px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	
+	
+
+}
+
+header {
+
+	background-color: linear-gradient(to bottom right, #ffffff, #c6c3d6, #8b9792);
+	padding: 10px;
+	
+}
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+nav li:last-child {
+	margin-right: 0;
+}
+
+nav a {
+	color: #333;
+	text-decoration: none;
+	padding: 5px;
+	border-radius: 5px;
+}
+
+nav a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+main {
+	max-width: 800px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+main h1 {
+	margin-top: 0;
+}
+
+main p {
+	margin-bottom: 30px;
+}
+
+.cta-btn {
+	display: inline-block;
+	padding: 10px 15px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	position: absolute;
+	margin-top: -8px;
+	margin-left: -80px;
+	text-decoration: none;
+	
+}
+
+.cta-btn:hover {
+	background-color: #fff;
+	color: #333;
+	border: 2px solid #333;
+	
+}
+
+/* 3D Slideshow */ 
+
+
+#slideshow {
+	margin: 0 auto;
+	padding-top: 50px;
+	height: 600px;
+	width: 100%;
+	box-sizing: border-box;
+	margin-top: -60px;
+}
+
+.slideshow-title {
+	font-family: 'Allerta Stencil';
+	font-size: 62px;
+	color: #fff;
+	margin: 0 auto;
+	text-align: center;
+	margin-top: 25%;
+	letter-spacing: -3px;
+	font-weight: 300;
+}
+
+.sub-heading {
+	padding-top: 50px;
+	font-size: 18px;
+} .sub-heading-two {
+	font-size: 17px;
+} .sub-heading-three {
+	font-size: 15px;
+} .sub-heading-four {
+	font-size: 13px;
+} .sub-heading-five {
+	font-size: 11px;
+} .sub-heading-six {
+	font-size: 9px;
+} .sub-heading-seven {
+	font-size: 7px;
+} .sub-heading-eight {
+	font-size: 5px;
+} .sub-heading-nine {
+	font-size: 3px;
+} .sub-heading-ten{
+	font-size: 1px;
+} 
+
+.entire-content {
+	margin: auto;
+	width: 390px;
+	perspective: 1000px;
+	position: relative;
+	padding-top: 80px;
+}
+
+.content-carrousel {
+	width: 100%;
+	position: absolute;
+	float: right;
+	animation: rotar 50s infinite linear;
+	transform-style: preserve-3d;
+}
+
+#.content-carrousel:hover {
+	animation-play-state: paused;
+	cursor: pointer;
+}
+
+.content-carrousel figure {
+	width: 300px;
+	height: 200px;
+	border: 1px solid #3b444b;
+	overflow: hidden;
+	position: absolute;
+}
+
+.content-carrousel figure:nth-child(1) {
+	transform: rotateY(0deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(2) {
+	transform: rotateY(40deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(3) {
+	transform: rotateY(80deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(4) {
+	transform: rotateY(120deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(5) {
+	transform: rotateY(160deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(6) {
+	transform: rotateY(200deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(7) {
+	transform: rotateY(240deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(8) {
+	transform: rotateY(280deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(9) {
+	transform: rotateY(320deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(10) {
+	transform: rotateY(360deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(11) {
+	transform: rotateY(400deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(12) {
+	transform: rotateY(440deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(13) {
+	transform: rotateY(480deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(14) {
+	transform: rotateY(520deg) translateZ(450px); 
+} .content-carrousel figure:nth-child(15) {
+	transform: rotateY(560deg) translateZ(450px); 
+} 
+
+.shadow {
+    position: absolute;
+    box-shadow: 0px 0px 20px 0px #000;
+    border-radius: 15px;
+}
+
+.content-carrousel img {
+	image-rendering: auto;
+	transition: all 300ms;
+	width: 100%;
+	height: 100%;
+}
+
+.content-carrousel img:hover {
+	transform: scale(1.2);
+	transition: all 300ms;
+}
+
+@keyframes rotar {
+	from {
+		transform: rotateY(0deg);
+	} to {
+		transform: rotateY(360deg);
+	}
+}
+
+.orçamento {
+	margin-top: 50px;
+}
+
+.servicos {
+border: 5px;
+border-style: ridge;
+border-color: rgb(53, 37, 37);
+margin-left: 35%;
+margin-right: 35%;
+font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.servicos2 {
+
+	color: rgb(36, 13, 13);
+	font-family: 'Overpass', sans-serif;
+	font-size: 30px;
+	text-shadow: 1px 1px 8px rgb(95, 44, 44);
+	 	 	
+
+}
+
+.somos {
+	font-family: Georgia, 'Times New Roman', Times, serif;
+	margin-top: 80px;
+}
+
+
+.frase {
+	margin-top: -30px;
+	font-family: 'Delicious Handrawn', cursive;
+	color: rgb(189, 115, 32);
+	font-size: 30px;
+
+}
+
+.quemsomos {
+
+margin-left: 20%;
+margin-right: 10%;
+
+}
+
+footer {
+	
+	margin-top: -15px;
+	font-size: 12px;
+
+}
+
+.contat {
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 50px;
+	font-size: 18px;
+	
+}
+
+.redessociais1 {
+
+	margin-top: -53px;
+	margin-left: 85%;
+}
+
+.redessociais2 {
+	margin-top: -67px;
+	margin-left: 91%;
+}
+
+
+.tinta05 {
+ 	
+	margin-top: -350px;
+	margin-left: 64%;
+	height: 400px;
+	width: 500px;
+	
+	background-image: url(./files/fundos/ROBERT\ KNESCHKE\ -\ ADOBE\ STOCK.png);
+	background-size: cover;
+
+		font-size: 8px;
+		writing-mode: vertical-rl;
+		text-align: center;
+    }
+
+
+
+.tinta06  {
+
+	width: 50px;
+	height: 10px;
+	margin-left: -20px;
+	margin-top: -13px;
+	
+}
+
+.tinta03 {
+ 	
+	margin-top: -650px;
+	margin-left: -4%;
+	height: 600px;
+	width: 400px;
+	
+	background-image: url(./files/fundos/FIEDELS\ -\ ADOBE\ STOCK.png);
+	background-size: cover;
+		
+    }
+
+	.locais  {
+
+	font-family: 'Overpass', sans-serif;
+    font-size: 18px;
+	color: rgb(48, 28, 28);
+
+	}
+
+	.autoria1 {
+
+		font-size: 8px;
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		position: relative;
+		top: 400px;
+		margin-top: -107px;
+
+	}
+
+	.autoria2 {
+
+		font-size: 8px;
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		position: relative;
+		margin-top: -140px;
+		top: -30px;
+
+	}
+
+	.autoria01 {
+
+		font-size: 8px;
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		margin-top: -130px;
+
+	}
