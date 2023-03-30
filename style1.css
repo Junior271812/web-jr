@@ -318,13 +318,15 @@ footer {
 }
 
 
-.tinta004 {
+.tinta05 {
  	
 	margin-top: -350px;
 	margin-left: 64%;
 	height: 400px;
 	width: 500px;
 	
+	background-image: url(https://roberto-jrs.github.io/web-jr/ROBERT KNESCHKE - ADOBE STOCK.png);
+	background-size: cover;
 
 		font-size: 8px;
 		writing-mode: vertical-rl;
