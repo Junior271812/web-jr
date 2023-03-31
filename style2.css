@@ -404,24 +404,24 @@ footer {
 
 
 
-.autoria1 {
+	.autoria1 {
 
-	font-size: 8px;
-	writing-mode: vertical-rl;
-	transform: rotate(180deg);
-	position: relative;
-	top: 400px;
-	margin-top: -107px;
+		font-size: 8px;
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		position: relative;
+		top: 400px;
+		margin-top: -107px;
 
-}
+	}
 
-.autoria2 {
+	.autoria2 {
 
-	font-size: 8px;
-	writing-mode: vertical-rl;
-	transform: rotate(180deg);
-	position: relative;
-	margin-top: -140px;
-	top: -30px;
+		font-size: 8px;
+		writing-mode: vertical-rl;
+		transform: rotate(180deg);
+		position: relative;
+		margin-top: -70px;
+		top: -30px;
 
-}
+	}
