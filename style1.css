@@ -323,7 +323,6 @@ footer {
 	margin-left: 80rem;
 	height: 500px;
 	width: 600px;
-	max-width: 100%
 	
 	background-image: url("https://roberto-jrs.github.io/web-jr/ROBERT KNESCHKE - ADOBE STOCK.png");
 	background-size: cover;
@@ -342,7 +341,6 @@ footer {
 	height: 10px;
 	margin-left: -20px;
 	margin-top: -13px;
-	max-width: 100%
 	
 }
 
@@ -352,7 +350,6 @@ footer {
 	margin-left: -4%;
 	height: 600px;
 	width: 400px;
-	max-width: 100%
 	
 	background-image: url("https://roberto-jrs.github.io/web-jr/FIEDELS - ADOBE STOCK.png");
 	background-size: cover;
