@@ -294,7 +294,7 @@ margin-right: 10%;
 
 footer {
 	
-	margin-top: 8px;
+	margin-top: -50px;
 	font-size: 12px;
 
 }
@@ -320,10 +320,10 @@ footer {
 
 .tinta05 {
  	
-	margin-top: -450px;
-	margin-left: 80rem;
-	height: 500px;
-	width: 600px;
+	margin-top: -350px;
+	margin-left: 66%;
+	height: 450px;
+	width: 480px;
 	
 	background-image: url("https://roberto-jrs.github.io/web-jr/ROBERT KNESCHKE - ADOBE STOCK.png");
 	background-size: cover;
@@ -348,7 +348,7 @@ footer {
 .tinta03 {
  	
 	margin-top: -700px;
-	margin-left: -4%;
+	margin-left: -5%;
 	height: 600px;
 	width: 400px;
 	
@@ -422,7 +422,7 @@ footer {
 		writing-mode: vertical-rl;
 		transform: rotate(180deg);
 		position: relative;
-		margin-top: -70px;
+		margin-top: -80px;
 		top: -30px;
 
 	}
