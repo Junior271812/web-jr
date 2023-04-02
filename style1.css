@@ -17,6 +17,8 @@ html, body {
 	
 	background-size: cover;
 	background: linear-gradient(to bottom right, #ffffff, #c6c3d6, #8b9792);
+	background-repeat: no-repeat;
+    	background-attachment: fixed;
 }
 
 h1 {
