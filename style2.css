@@ -388,6 +388,16 @@ footer {
 		margin-bottom: 10px;
 		font-size: 16px;
 	}
+
+	input[type=tel], select, textarea {
+		width: 100%;
+		padding: 10px;
+		border: 1px solid #ccc;
+		border-radius: 4px;
+		box-sizing: border-box;
+		margin-bottom: 10px;
+		font-size: 16px;
+	}
 	
 	input[type=submit] {
 		background-color: #2a5f2c;
