@@ -388,3 +388,57 @@ footer {
 
 	}
 
+@media only screen and (max-width: 1080px) {
+		body {
+		  font-size: 16px;
+		}
+		h1 {
+		  font-size: 30px;
+		  margin-top: -60px;
+		}
+
+		.frase {
+			font-size: 23px;
+			margin-top: -20px;
+		}
+
+		.marca0 > img {
+
+		display: none;
+
+		}
+
+		.servicos {
+
+			border: 5px;
+			border-style: ridge;
+			border-color: rgb(53, 37, 37);
+			margin-left: 10%;
+			margin-right: 10%;
+			font-family: Georgia, 'Times New Roman', Times, serif;
+		}
+
+		.quemsomos {
+
+			
+			text-align: center;
+			margin-left: 50px;
+
+		}
+
+
+		
+		
+
+		
+
+		footer {
+
+			margin-left: 5px;
+		}
+		
+
+		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2 {
+			display: none;
+		}
+	  }
