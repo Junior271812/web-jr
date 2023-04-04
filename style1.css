@@ -388,7 +388,7 @@ footer {
 
 	}
 
-@media only screen and (max-width: 1920px, min-width: 1080px) {
+@media only screen and (max-width: 600px) {
 		body {
 		  font-size: 16px;
 		}
@@ -441,26 +441,7 @@ footer {
 		}
 		
 
-			.tinta06 {
-			display: none;
-		}
-			.tinta03 {
-			display: none;
-		}
-			
-			.tinta05 {
-			display: none;
-		}
-			
-			.autoria01 {
-			display: none;
-		}
-			
-			.autoria1 {
-			display: none;
-		}
-			
-			.autoria2 {
+		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2 {
 			display: none;
 		}
 	  }
