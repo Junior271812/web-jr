@@ -441,7 +441,7 @@ footer {
 		}
 		
 
-		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2 {
+		tinta06, tinta03, tinta05, autoria01, autoria1, autoria2 {
 			display: none;
 		}
 	  }
