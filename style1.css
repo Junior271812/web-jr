@@ -430,7 +430,9 @@ footer {
 		
 		
 
-		
+		.content-carrousel:hover {
+		animation-play-state: paused;
+		cursor: pointer;
 
 		footer {
 
