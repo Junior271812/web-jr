@@ -395,7 +395,7 @@ footer {
   		  margin: 0 auto; /* Isso centralizará o conteúdo dentro do contêiner */
 		}
 		h1 {
-		  font-size: 30px;
+		  font-size: 40px;
 		  margin-top: -60px;
 		}
 
@@ -410,7 +410,7 @@ footer {
 
 		}
 
-		.servicos {
+		.444servicos {
 
 			border: 5px;
 			border-style: ridge;
@@ -421,6 +421,14 @@ footer {
 			padding: 10px;
 			padding-left: -10px;
 		}
+			
+		.servicos {
+			display: flex;
+    			flex-direction: center;
+   			justify-content: center;
+    			align-items: center;
+		}
+		
 
 		.22quemsomos {
 
@@ -439,7 +447,7 @@ footer {
 	
 		.servicos2 {
 
-			margin-top: 50%;
+			margin-top: 55%;
 					  
 		}
 
