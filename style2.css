@@ -438,12 +438,23 @@ footer {
 	}
 
 
+		#slider {
+			
+		display: none !important; 
+			
+	  	}
+
+
 	@media only screen and (max-width: 1080px) {
+		
 		body {
 		  font-size: 16px;
+		  max-width: 1080px; /* Defina o valor máximo de largura aqui */
+  		  margin: 0 auto; /* Isso centralizará o conteúdo dentro do contêiner */
 		}
+		
 		h1 {
-		  font-size: 30px;
+		  font-size: 40px;
 		  margin-top: -60px;
 		}
 
@@ -466,6 +477,8 @@ footer {
 			margin-left: 10%;
 			margin-right: 10%;
 			font-family: Georgia, 'Times New Roman', Times, serif;
+			padding: 10px;
+			padding-left: -10px;
 		}
 
 		.quemsomos {
@@ -477,7 +490,11 @@ footer {
 		}
 
 
-		
+		.servicos2 {
+
+			margin-top: 60%;
+					  
+		}
 		
 
 		
@@ -492,4 +509,55 @@ footer {
 		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2 {
 			display: none;
 		}
+		
+		
+		
+		
+		.slideshow {
+			display: none;
+		}
+
+
+		.imgcel {
+			display: flex;
+    		flex-direction: center;
+   			justify-content: center;
+    		align-items: center;
+		}
+
+	  #slider {
+		width: 80%;
+		max-width: 500px;
+		height: 25vw;
+		max-height: 150px;
+		
+		
+	
+		position: relative;
+
+		display: block !important;
+	}
+	
+	#slider img{
+		opacity: 0;
+	
+		position: absolute;
+		
+
+		width: 100%;
+		height: 100%;
+	
+		object-fit: cover;
+	
+		transition: opacity 800ms;
+
+		border-radius: 20px;
+
+		}
+	
+	#slider img.selected { 
+		opacity: 1;
+	}
+		
+		
 	  }
