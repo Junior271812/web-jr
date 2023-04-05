@@ -417,6 +417,7 @@ footer {
 			border-color: rgb(53, 37, 37);
 			margin-left: 10%;
 			margin-right: 10%;
+			
 			font-family: Georgia, 'Times New Roman', Times, serif;
 			padding: 10px;
 			padding-left: -10px;
@@ -438,7 +439,7 @@ footer {
 	
 		.servicos2 {
 
-			margin-top: 30%;
+			margin-top: -20px;
 					  
 		}
 
