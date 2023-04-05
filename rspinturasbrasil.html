@@ -103,6 +103,110 @@
             </main>
     
     </div>
+	
+	
+	
+	<div class="imgcel">
+    <div id="slider">
+        <img class="selected" src="https://roberto-jrs.github.io/web-jr/002.jpeg" alt="Image1" style="height: 300px;">
+        <img src="https://roberto-jrs.github.io/web-jr/012.jpeg" alt="Image2" style="height: 300px;">
+        <img src="https://roberto-jrs.github.io/web-jr//004.jpeg" alt="Image3" style="height: 300px;">
+        <img src="https://roberto-jrs.github.io/web-jr/007.jpeg" alt="Image4" style="height: 300px;">
+        <img src="https://roberto-jrs.github.io/web-jr/003.jpeg" alt="Image5" style="height: 300px;">
+        <img src="https://roberto-jrs.github.io/web-jr//008.jpeg" alt="Image6" style="height: 300px;">
+        <img src="https://roberto-jrs.github.io/web-jr/010.jpeg" alt="Image7" style="height: 300px;">
+        <img src="https://roberto-jrs.github.io/web-jr/011.jpeg" alt="Image8" style="height: 300px;">
+    </div>
+</div>
+
+    <script>
+
+let time = 5000,
+    currentImageIndex = 0,
+    images = document
+                .querySelectorAll("#slider img")
+    max = images.length;
+
+function nextImage() {
+
+    images[currentImageIndex]
+        .classList.remove("selected")
+
+    currentImageIndex++
+
+    if(currentImageIndex >= max)
+        currentImageIndex = 0
+
+    images[currentImageIndex]
+        .classList.add("selected")
+
+}
+
+
+
+//daqui pra baixo//
+
+let timerId = null;
+
+function start() {
+    timerId = setInterval(() => {
+        // troca de image
+        nextImage()
+    }, time)
+
+    // adiciona o manipulador de eventos touchstart à imagem atual
+    images[currentImageIndex].addEventListener("touchstart", stop)
+}
+
+function stop() {
+    // remove o manipulador de eventos touchstart da imagem atual
+    images[currentImageIndex].removeEventListener("touchstart", stop);
+
+    // adiciona o manipulador de eventos touchend à imagem atual
+    images[currentImageIndex].addEventListener("touchend", resume);
+
+    // limpa o temporizador da animação do slideshow
+    clearInterval(timerId);
+}
+
+function resume() {
+    // remove o manipulador de eventos touchend da imagem atual
+    images[currentImageIndex].removeEventListener("touchend", resume);
+
+    // adiciona o manipulador de eventos touchstart à imagem atual
+    images[currentImageIndex].addEventListener("touchstart", stop);
+
+    // reinicia o temporizador da animação do slideshow
+    timerId = setInterval(() => {
+        // troca de image
+        nextImage()
+    }, time)
+}
+
+// daqui pra cima //
+
+
+function start() {
+    setInterval(() => {
+        // troca de image
+        nextImage()
+    }, time)
+    
+}
+
+window.addEventListener("load", start)
+
+
+
+    </script>
+	
+	
+	
+	
+	
+	
+	
+	
 
     
 
