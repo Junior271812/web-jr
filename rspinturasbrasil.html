@@ -104,8 +104,6 @@
     
     </div>
 	
-	
-	
 	<div class="imgcel">
     <div id="slider">
         <img class="selected" src="https://roberto-jrs.github.io/web-jr/002.jpeg" alt="Image1" style="height: 300px;">
@@ -142,50 +140,6 @@ function nextImage() {
 
 }
 
-
-
-//daqui pra baixo//
-
-let timerId = null;
-
-function start() {
-    timerId = setInterval(() => {
-        // troca de image
-        nextImage()
-    }, time)
-
-    // adiciona o manipulador de eventos touchstart à imagem atual
-    images[currentImageIndex].addEventListener("touchstart", stop)
-}
-
-function stop() {
-    // remove o manipulador de eventos touchstart da imagem atual
-    images[currentImageIndex].removeEventListener("touchstart", stop);
-
-    // adiciona o manipulador de eventos touchend à imagem atual
-    images[currentImageIndex].addEventListener("touchend", resume);
-
-    // limpa o temporizador da animação do slideshow
-    clearInterval(timerId);
-}
-
-function resume() {
-    // remove o manipulador de eventos touchend da imagem atual
-    images[currentImageIndex].removeEventListener("touchend", resume);
-
-    // adiciona o manipulador de eventos touchstart à imagem atual
-    images[currentImageIndex].addEventListener("touchstart", stop);
-
-    // reinicia o temporizador da animação do slideshow
-    timerId = setInterval(() => {
-        // troca de image
-        nextImage()
-    }, time)
-}
-
-// daqui pra cima //
-
-
 function start() {
     setInterval(() => {
         // troca de image
@@ -201,15 +155,6 @@ window.addEventListener("load", start)
     </script>
 	
 	
-	
-	
-	
-	
-	
-	
-
-    
-
     <div class="slideshow" id="03">
     <section id="slideshow">
         <div class="entire-content">
