@@ -527,6 +527,8 @@ footer {
     		flex-direction: center;
    			justify-content: center;
     		align-items: center;
+			position: relative;
+			bottom: 10px;
 		}
 
 	  #slider {
