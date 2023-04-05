@@ -410,7 +410,7 @@ footer {
 
 		}
 
-		.444servicos {
+		.servicos {
 
 			border: 5px;
 			border-style: ridge;
@@ -422,15 +422,9 @@ footer {
 			padding-left: -10px;
 		}
 			
-		.servicos {
-			display: flex;
-    			flex-direction: center;
-   			justify-content: center;
-    			align-items: center;
-		}
 		
 
-		.22quemsomos {
+		.quemsomos {
 
 			
 			text-align: center;
@@ -438,16 +432,11 @@ footer {
 
 		}
 	
-		.somos {
-			display: flex;
-    			flex-direction: center;
-   			justify-content: center;
-    			align-items: center;
-		}
+		
 	
 		.servicos2 {
 
-			margin-top: 70%;
+			margin-top: 60%;
 					  
 		}
 
