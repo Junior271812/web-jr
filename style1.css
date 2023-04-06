@@ -409,6 +409,11 @@ footer {
 		display: none;
 
 		}
+	
+	
+	.textfixo {
+		display: none !important; 
+	  }
 
 		.servicos {
 
