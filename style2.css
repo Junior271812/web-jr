@@ -463,10 +463,8 @@ footer {
 			margin-top: 15px;
 		}
 		
-		.orçamento { 
-			margin-top: 80px;
-			padding-left: 4px;
-			padding-right: 4px;
+		.form { 
+			width: 480px;
 		}
 
 		.marca0 > img {
