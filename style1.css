@@ -391,6 +391,14 @@ footer {
 		display: none !important; 
 	  }
 
+	#menu { 
+		display: none !important; 
+	  }
+
+         #toggle { 
+		display: none !important; 
+	  }
+
 
 @media only screen and (max-width: 1080px) {
 		body {
@@ -426,12 +434,10 @@ footer {
 		display: block !important;
 	  }
 	
-	#menu {
-		display: block !important;
-	  }
+	
 		
 #toggle {
-  display: block;
+  display: block !important;
   width: 28px;
   height: 30px;
   margin-top: 80px;
@@ -480,6 +486,7 @@ footer {
 
 /* menu appearance*/
 #menu {
+  display: block !important;
   position: relative;
   color: #999;
   width: 200px;
