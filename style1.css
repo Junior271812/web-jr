@@ -443,6 +443,8 @@ footer {
   display: block !important;
   width: 28px;
   height: 30px;
+  position: relative;
+  left: 20px;
 }
 
 #toggle span:after,
