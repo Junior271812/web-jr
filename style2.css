@@ -566,3 +566,15 @@ footer {
 		
 		
 	  }
+
+
+
+	cta.btn {
+		position: relative;
+  		left: 50%;
+	}
+
+	.contat {
+		text-align: center;
+		
+	}
