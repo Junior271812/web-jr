@@ -434,13 +434,11 @@ footer {
 		display: block !important;
 	  }
 	
-	
 		
 #toggle {
   display: block !important;
   width: 28px;
   height: 30px;
-  margin-top: 80px;
 }
 
 #toggle span:after,
