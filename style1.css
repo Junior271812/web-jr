@@ -387,9 +387,7 @@ footer {
 		display: none !important; 
 	  }
 
-	.menucel {
-		display: none !important; 
-	  }
+	
 
 	#menu { 
 		display: none !important; 
@@ -436,13 +434,13 @@ footer {
 	
 	
 	
+	
 		
 #toggle {
   display: block !important;
   width: 28px;
   height: 30px;
-  position: relative;
-  left: 20px;
+  margin-top: 20px;
 }
 
 #toggle span:after,
@@ -486,15 +484,14 @@ footer {
   visibility: visible;
 }
 
-/* menu appearance*/
+
 #menu {
-  display: block !important;
   position: relative;
   color: #999;
   width: 200px;
   padding: 10px;
   margin: 35px;
-  top: -50px;
+  margin-top: -50px;
   font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
   text-align: center;
   border-radius: 4px;
