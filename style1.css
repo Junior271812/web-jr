@@ -420,6 +420,9 @@ footer {
 	  }
 	
 	
+	.menucel {
+		display: block !important;
+	  }
 		
 #toggle {
   display: block;
