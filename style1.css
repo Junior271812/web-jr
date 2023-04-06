@@ -420,7 +420,13 @@ footer {
 	  }
 	
 	
+	
+	
 	.menucel {
+		display: block !important;
+	  }
+	
+	#menu {
 		display: block !important;
 	  }
 		
