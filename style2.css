@@ -460,12 +460,17 @@ footer {
 
 		.frase {
 			font-size: 23px;
-			margin-top: 15px;
+			margin-top: 10px;
 		}
 		
-		.form { 
-			width: 200px;
-		}
+		.orçamento {
+     			 margin-top: 90px;
+    			}
+		
+		form {
+      
+    			 max-width: 350px;
+  		  }
 
 		.marca0 > img {
 
