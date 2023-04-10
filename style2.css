@@ -644,9 +644,14 @@ footer {
 			margin-top: 58%;
 					  
 		}
+ 
+		
+		
 
-
-
+            form {
+		    max-width: 230px;
+		    margin-top: 20px;
+		}
 		
 
 		footer {
