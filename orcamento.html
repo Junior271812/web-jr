@@ -15,6 +15,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Alkatra&display=swap" rel="stylesheet">
+	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
 
 </head>
 
@@ -24,23 +28,95 @@
     
     <div class="whats">
     <a href="https://wa.me/5515997121988?text=Olá! Gostaria de fazer um orçamento." target="_blank">
-    <img src="https://roberto-jrs.github.io/web-jr/whatsappfundo.png" alt="Whatsapp" style="width: 50px; position: fixed; bottom: 40px; right: 40px; border-radius: 50px;"></a>
+    <img src="https://roberto-jrs.github.io/web-jr/whatsappfundo.png" alt="Whatsapp" style="width: 60px; position: fixed; bottom: 43px; right: 43px; border-radius: 50px;"></a>
     </div>
-    
-    <div class="textfixo" id="07">
+	
+    <div class="textfixo">
         <header>
             <nav>
                 <ul>
-                    <li><a href="https://roberto-jrs.github.io/web-jr/rspinturasbrasil.html">Home</a></li>
-                    <li><a href="https://roberto-jrs.github.io/web-jr/rspinturasbrasil.html">Sobre</a></li>
+                    <li><a href="#01">Home</a></li>
+                    <li><a href="#02">Sobre</a></li>
                     <li><a href="#03">Fotos</a></li>
                     <li><a href="#04">Serviços</a></li>
-                    <li><a href="">Orçamento</a></li>
+                    <li><a href="https://roberto-jrs.github.io/web-jr/orcamento.html">Orçamento</a></li>
                     <li><a href="#06">Contato</a></li>
                 </ul>
             </nav>
         </header>
     </div>
+  
+  <header>
+	
+  <div class="redessociaistel1">
+        
+            
+                <a href="https://www.instagram.com/rs_pinturas_brasil_/" 
+                 target="_blank"><img src="https://roberto-jrs.github.io/web-jr/instagram.png" alt="Instagram" style="width: 58px;"></a> 
+            
+        
+    </div>
+    <div class="redessociaistel2">
+    
+        
+            <a href="https://www.facebook.com/rodrigo.sales.129142" 
+            target="_blank"><img src="https://roberto-jrs.github.io/web-jr/Facebook.png" alt="Facebook" style="width: 35px;"></a>
+      
+      </header>
+	
+      <!-- Aqui pra baixo é o texto do botão menu-->
+  
+      <header id="header">
+    <a id="logo" href=""></a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="#01">Home</a></li> <br>
+        <li><a href="#02">Sobre</a></li> <br>
+        <li><a href="#03">Fotos</a></li> <br>
+        <li><a href="#07">Orçamento</a></li> <br>
+        <li><a href="#05">Contato</a></li>
+      </ul>
+    </nav>
+        
+         
+
+        
+    </div>
+        
+  </header>
+  
+    <script>
+     
+      const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(event) {
+  if (event.type === 'touchstart') event.preventDefault();
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+  const active = nav.classList.contains('active');
+  event.currentTarget.setAttribute('aria-expanded', active);
+  if (active) {
+    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+  } else {
+    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+  }
+}
+
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
+    
+    </script>
+  
+  
+  
+  
+      <!-- Aqui pra cima é o texto do botão menu -->
+  
+  
+	
 
     <div class="redessociais1">
         <header>
@@ -57,6 +133,8 @@
 
         </header>
     </div>
+	
+	
 
     <div class="tinta06">
         <img src="https://roberto-jrs.github.io/web-jr/SUAIB KAZI - PINTEREST.png" alt="" style="width: 350px;">
@@ -87,7 +165,7 @@
     </div>
     <br>
    
-    <div class="orçamento">
+    <div class="orçamento" id="07">
         
         <form action="#" method="post" onsubmit="return validarFormulario()">
             <label for="nome">Nome:</label>
