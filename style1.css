@@ -389,13 +389,17 @@ footer {
 
 	
 
-	#menu { 
+  #header {
 		display: none !important; 
 	  }
 
-         #toggle { 
+.redessociaistel1 {
 		display: none !important; 
 	  }
+.redessociaistel2 {
+		display: none !important; 
+	  }
+	
 
 
 @media only screen and (max-width: 1080px) {
@@ -406,8 +410,14 @@ footer {
 		}
 		h1 {
 		  font-size: 40px;
-		  margin-top: -60px;
+		  margin-top: -70px;
 		}
+  
+  header {
+    margin-top: 5px;
+    
+  }
+  
 
 		.frase {
 			font-size: 23px;
@@ -424,116 +434,113 @@ footer {
 	.textfixo {
 		display: none !important; 
 	  }
-	
-	
-	
-	
-	.menucel {
-		display: block !important;
+  
+  .redessociais1 {
+		display: none !important; 
 	  }
 	
-	
-	
-	
-		
-#toggle {
-  display: block !important;
-  width: 28px;
-  height: 30px;
-  margin-top: 20px;
-}
+  .redessociais2 {
+		display: none !important; 
+	  }
+  
+  
+  .redessociaistel1 {
+    display: block !important;
+    margin-top: -7px;
+	  margin-left: 70%;
+    position: absolute;
+  }
+  
+  .redessociaistel2 {
+    display: block !important;
+    margin-top: -5px;
+	  margin-left: 85%;
+    position: absolute;
+  }
+  
+  #menu {
+    margin-top: -30px;
+    margin-left: 40px;
+    border: groove;
+    border-radius: 10px;
+    max-width: 240px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  		  
+  }
+  
+	/* daqui pra baixo a arrumação do menu */
+  
+  #header {
+		display: block !important; 
+	  }
+ 
+  #menu {
+    display: block;
+    position: static;
+    width: 100%;
+    top: 50px;
+    margin-top: -30px;
+    right: 0px;
+    background: withe;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: 130px;
+    width: 100%;
+    visibility: visible;
+    overflow-y: none;
+  }
+  #menu a {
+    padding: 0 1px;
+    margin: 0 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin-top: -25px;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
 
-#toggle span:after,
-#toggle span:before {
-  content: "";
-  position: absolute;
-  left: 0;
-  top: -9px;
-}
-#toggle span:after{
-  top: 9px;
-}
-#toggle span {
-  position: relative;
-  display: block;
-}
-
-#toggle span,
-#toggle span:after,
-#toggle span:before {
-  width: 100%;
-  height: 5px;
-  background-color: #888;
-  transition: all 0.3s;
-  backface-visibility: hidden;
-  border-radius: 2px;
-}
-
-/* on activation */
-#toggle.on span {
-  background-color: transparent;
-}
-#toggle.on span:before {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-#toggle.on span:after {
-  transform: rotate(-45deg) translate(7px, -8px);
-}
-#toggle.on + #menu {
-  opacity: 1;
-  visibility: visible;
-}
-
-
-#menu {
-  position: relative;
-  color: #999;
-  width: 200px;
-  padding: 10px;
-  margin: 35px;
-  margin-top: -50px;
-  font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
-  text-align: center;
-  border-radius: 4px;
-  background: white;
-  box-shadow: 0 1px 8px rgba(0,0,0,0.05);
-  /* just for this demo */
-  opacity: 0;
-  visibility: hidden;
-  transition: opacity .4s;
-}
-#menu:after {
-  position: absolute;
-  top: -15px;
-  left: 95px;
-  content: "";
-  display: block;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  border-bottom: 20px solid white;
-}
-ul, li, li a {
-  list-style: none;
-  display: block;
-  margin: 0;
-  padding: 0;
-}
-li a {
-  padding: 5px;
-  color: #888;
-  text-decoration: none;
-  transition: all .2s;
-}
-li a:hover,
-li a:focus {
-  background: #1ABC9C;
-  color: #fff;
-}
-
-	
-	
-	
-	
+  
+  
+  
+  /* daqui pra cima a arrumação do menu */
+  
 
 		.servicos {
 
