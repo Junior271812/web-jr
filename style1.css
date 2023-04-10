@@ -431,6 +431,10 @@ footer {
 		}
 	
 	
+	.textsomos {
+		text-align: justify;
+	}
+	
 	.textfixo {
 		display: none !important; 
 	  }
