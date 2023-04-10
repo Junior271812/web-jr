@@ -308,13 +308,13 @@ footer {
 
 .redessociais1 {
 
-	margin-top: -53px;
-	margin-left: 85%;
+	margin-top: -75px;
+	margin-left: 83%;
 }
 
 .redessociais2 {
-	margin-top: -67px;
-	margin-left: 91%;
+	margin-top: -63px;
+	margin-left: 90%;
 }
 
 
@@ -444,84 +444,223 @@ footer {
 			
 	  	}
 
+ 		#header {
+		display: none !important; 
+	  }
+
+		.redessociaistel1 {
+		display: none !important; 
+	  }
+		.redessociaistel2 {
+		display: none !important; 
+	  }
+
 
 	@media only screen and (max-width: 1080px) {
+		
 		
 		body {
 		  font-size: 16px;
 		  max-width: 1080px; /* Defina o valor máximo de largura aqui */
   		  margin: 0 auto; /* Isso centralizará o conteúdo dentro do contêiner */
 		}
-		
 		h1 {
 		  font-size: 40px;
-		  margin-top: -60px;
+		  margin-top: -70px;
 		}
+  
+ 		 header {
+    		margin-top: 5px;
+    
+  		}
+  
 
 		.frase {
 			font-size: 23px;
-			margin-top: 10px;
+			margin-top: -20px;
 		}
-		
-		.orçamento {
-     			 margin-top: 90px;
-    			}
-		
-		form {
-      
-    			 max-width: 350px;
-  		  }
 
 		.marca0 > img {
 
 		display: none;
 
 		}
+	
+	
+	.textfixo {
+		display: none !important; 
+	  }
+  
+  .redessociais1 {
+		display: none !important; 
+	  }
+	
+  .redessociais2 {
+		display: none !important; 
+	  }
+  
+  
+  .redessociaistel1 {
+    display: block !important;
+    margin-top: -7px;
+	  margin-left: 67%;
+    position: absolute;
+  }
+  
+  .redessociaistel2 {
+    display: block !important;
+    margin-top: -5px;
+	  margin-left: 85%;
+    position: absolute;
+  }
+  
+  #menu {
+    margin-top: -30px;
+    margin-left: 40px;
+    border: groove;
+    border-radius: 10px;
+    max-width: 220px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+  		  
+  }
+  
+	/* daqui pra baixo a arrumação do menu */
+  
+  #header {
+		display: block !important; 
+	  }
+ 
+  #menu {
+    display: block;
+    position: static;
+    width: 100%;
+    top: 50px;
+    margin-top: -30px;
+    right: 0px;
+    background: withe;
+    transition: 0.6s;
+    z-index: 1000;
+    height: 0px;
+    visibility: hidden;
+    overflow-y: hidden;
+  }
+  #nav.active #menu {
+    height: 130px;
+    width: 100%;
+    visibility: visible;
+    overflow-y: none;
+  }
+  #menu a {
+    padding: 0 1px;
+    margin: 0 10px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.05);
+  }
+  #btn-mobile {
+    display: flex;
+    padding: 0.5rem 1rem;
+    margin-top: -25px;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+  }
+  #hamburger {
+    border-top: 2px solid;
+    width: 20px;
+  }
+  #hamburger::after,
+  #hamburger::before {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 2px;
+    background: currentColor;
+    margin-top: 5px;
+    transition: 0.3s;
+    position: relative;
+  }
+  #nav.active #hamburger {
+    border-top-color: transparent;
+  }
+  #nav.active #hamburger::before {
+    transform: rotate(135deg);
+  }
+  #nav.active #hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  
+  
+  
+  /* daqui pra cima a arrumação do menu */
+  
 
 		.servicos {
 
 			border: 5px;
 			border-style: ridge;
 			border-color: rgb(53, 37, 37);
-			margin-left: 10%;
-			margin-right: 10%;
+			margin-left: 3%;
+			margin-right: 3%;
+      
+			
 			font-family: Georgia, 'Times New Roman', Times, serif;
-			padding: 10px;
+			padding: 5px;
 			padding-left: -10px;
 		}
+			
+		
 
 		.quemsomos {
 
 			
 			text-align: center;
-			margin-left: 50px;
+			
 
 		}
-
-
+	
+		.somos {
+      			margin-left: 5%;
+			margin-right: 5%;
+ 		 }
+	
+		.orçamentotel {
+			
+			max-width: 400px;
+     			position: relative;
+      			
+      			top: -20px;
+			
+	}
+	
+	
+		
+	
 		.servicos2 {
 
 			margin-top: 58%;
 					  
 		}
-		
+
+
 
 		
 
 		footer {
 
 			margin-left: 5px;
-			margin-top: 20px;
+			margin-top: 18px;
 		}
 		
 
 		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2 {
 			display: none;
 		}
-		
-		
-		
-		
+	
+	
 		.slideshow {
 			display: none;
 		}
@@ -532,11 +671,10 @@ footer {
     		flex-direction: center;
    			justify-content: center;
     		align-items: center;
-			margin-top: 30px;
 		}
 
 	  #slider {
-		width: 80%;
+		width: 82%;
 		max-width: 500px;
 		height: 25vw;
 		max-height: 150px;
@@ -563,23 +701,16 @@ footer {
 
 		border-radius: 20px;
 
-		}
+		
+		
+		
+	}
 	
 	#slider img.selected { 
 		opacity: 1;
 	}
-		
-		
+	
+	
+	
+	
 	  }
-
-
-
-	cta.btn {
-		position: relative;
-  		left: 50%;
-	}
-
-	.contat {
-		text-align: center;
-		
-	}
