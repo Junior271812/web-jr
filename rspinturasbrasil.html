@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -11,6 +10,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+  
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    
 
 </head>
 
@@ -37,71 +42,77 @@
             </nav>
         </header>
     </div>
-	
-	
-<a href="#menu" id="toggle"><span></span></a>
-
-<div id="menu">
-  <ul>
-    <li><a href="#01">Home</a></li>
-    <li><a href="#02">Sobre</a></li>
-    <li><a href="#03">Fotos</a></li>
-    <li><a href="#04">Serviços</a></li>
-    <li><a href="https://roberto-jrs.github.io/web-jr/orcamento.html">Orçamento</a></li>
-    <li><a href="#05">Contato</a></li>
-  </ul>
-</div>
   
-
- 
-	<script>
+  <header>
 	
-	var theToggle = document.getElementById('toggle');
-
-// based on Todd Motto functions
-// https://toddmotto.com/labs/reusable-js/
-
-// hasClass
-function hasClass(elem, className) {
-	return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
-}
-// addClass
-function addClass(elem, className) {
-    if (!hasClass(elem, className)) {
-    	elem.className += ' ' + className;
-    }
-}
-// removeClass
-function removeClass(elem, className) {
-	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
-	if (hasClass(elem, className)) {
-        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
-            newClass = newClass.replace(' ' + className + ' ', ' ');
-        }
-        elem.className = newClass.replace(/^\s+|\s+$/g, '');
-    }
-}
-// toggleClass
-function toggleClass(elem, className) {
-	var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
-    if (hasClass(elem, className)) {
-        while (newClass.indexOf(" " + className + " ") >= 0 ) {
-            newClass = newClass.replace( " " + className + " " , " " );
-        }
-        elem.className = newClass.replace(/^\s+|\s+$/g, '');
-    } else {
-        elem.className += ' ' + className;
-    }
-}
-
-theToggle.onclick = function() {
-   toggleClass(this, 'on');
-   return false;
-}
+  <div class="redessociaistel1">
+        
+            
+                <a href="https://www.instagram.com/rs_pinturas_brasil_/" 
+                 target="_blank"><img src="https://roberto-jrs.github.io/web-jr/instagram.png" alt="Instagram" style="width: 58px;"></a> 
+            
+        
+    </div>
+    <div class="redessociaistel2">
+    
+        
+            <a href="https://www.facebook.com/rodrigo.sales.129142" 
+            target="_blank"><img src="https://roberto-jrs.github.io/web-jr/Facebook.png" alt="Facebook" style="width: 35px;"></a>
+      
+      </header>
 	
-	</script>
-	
-	
+      <!-- Aqui pra baixo é o texto do botão menu-->
+  
+      <header id="header">
+    <a id="logo" href=""></a>
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="menu" aria-expanded="false">
+        <span id="hamburger"></span>
+      </button>
+      <ul id="menu" role="menu">
+        <li><a href="#01">Home</a></li> <br>
+        <li><a href="#02">Sobre</a></li> <br>
+        <li><a href="#03">Fotos</a></li> <br>
+        <li><a href="https://roberto-jrs.github.io/web-jr/orcamento.html">Orçamento</a></li> <br>
+        <li><a href="#05">Contato</a></li>
+      </ul>
+    </nav>
+        
+         
+
+        
+    </div>
+        
+  </header>
+  
+    <script>
+     
+      const btnMobile = document.getElementById('btn-mobile');
+
+function toggleMenu(event) {
+  if (event.type === 'touchstart') event.preventDefault();
+  const nav = document.getElementById('nav');
+  nav.classList.toggle('active');
+  const active = nav.classList.contains('active');
+  event.currentTarget.setAttribute('aria-expanded', active);
+  if (active) {
+    event.currentTarget.setAttribute('aria-label', 'Fechar Menu');
+  } else {
+    event.currentTarget.setAttribute('aria-label', 'Abrir Menu');
+  }
+}
+
+btnMobile.addEventListener('click', toggleMenu);
+btnMobile.addEventListener('touchstart', toggleMenu);
+    
+    </script>
+  
+  
+  
+  
+      <!-- Aqui pra cima é o texto do botão menu -->
+  
+  
 	
 
     <div class="redessociais1">
@@ -315,5 +326,3 @@ window.addEventListener("load", start)
 
 </body>
 </html>
-
-
