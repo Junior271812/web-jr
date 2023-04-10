@@ -547,11 +547,12 @@ footer {
 			border: 5px;
 			border-style: ridge;
 			border-color: rgb(53, 37, 37);
-			margin-left: 10%;
-			margin-right: 10%;
+			margin-left: 3%;
+			margin-right: 3%;
+      
 			
 			font-family: Georgia, 'Times New Roman', Times, serif;
-			padding: 10px;
+			padding: 5px;
 			padding-left: -10px;
 		}
 			
