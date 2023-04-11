@@ -290,7 +290,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 footer {
 	
-	margin-top: -50px;
+	margin-top: -400px;
 	font-size: 12px;
 
 }
@@ -316,12 +316,13 @@ footer {
 
 .tinta05 {
  	
-	margin-top: -350px;
-	margin-left: 66%;
+  	position: relative;
+	top: -430px;
+	margin-left: 59%;
 	height: 450px;
 	width: 480px;
 	
-	background-image: url("https://roberto-jrs.github.io/web-jr/ROBERT KNESCHKE - ADOBE STOCK.png");
+	aabackground-image: url("https://roberto-jrs.github.io/web-jr/ROBERT KNESCHKE - ADOBE STOCK.png");
 	background-size: cover;
 
 		font-size: 8px;
