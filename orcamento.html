@@ -186,7 +186,7 @@ btnMobile.addEventListener('touchstart', toggleMenu);
                 <option value="edificio">Edifício</option>
             </select>
     
-            <div id="andares" style="display: none;" required placeholder="andares">
+            <div id="andares" style="display: none;" name="optional-field">
                 <label for="numero-andares">Número de Andares:</label>
                 <select id="numero-andares" name="numero-andares">
                     <option value="2-andares">2 andares</option>
@@ -230,6 +230,10 @@ btnMobile.addEventListener('touchstart', toggleMenu);
              alert("Orçamento Enviado com Sucesso!");
             return true;
             }
+		    
+           if (optionalField != "") {
+           body += "\nCampo opcional: " + optionalField;
+          }
             }
 
 
