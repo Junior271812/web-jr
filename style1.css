@@ -315,10 +315,9 @@ footer {
 
 
 .tinta05 {
- 	
-  	position: relative;
-	top: -430px;
-	margin-left: 59%;
+ 	align: right;
+	margin-top: -350px;
+	margin-left: 66%;
 	height: 450px;
 	width: 480px;
 	
@@ -328,7 +327,7 @@ footer {
 		font-size: 8px;
 		writing-mode: vertical-rl;
 		text-align: center;
-		align: right;
+		
 		
     }
 
