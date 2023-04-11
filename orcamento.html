@@ -177,8 +177,8 @@ btnMobile.addEventListener('touchstart', toggleMenu);
             <label for="email">E-mail:</label>
             <input type="text" id="email" name="email" required placeholder="E-mail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
             
-            <label for="local">Local:</label>
-            <select id="local" name="local" onchange="exibirOpcoes()" required>
+            <label for="tipo">Local:</label>
+            <select id="tipo" name="tipo" onchange="exibirOpcoes()" required>
                 <option value="">Selecione um local</option>
                 <option value="residencial">Residencial</option>
                 <option value="comercial">Comercial</option>
@@ -209,7 +209,7 @@ btnMobile.addEventListener('touchstart', toggleMenu);
     
         <script>
 
-            var tipoEndereco = document.getElementById("local");
+            var tipoEndereco = document.getElementById("tipo");
             var divAndares = document.getElementById("andares");
     
             tipoEndereco.addEventListener("change", function(){
