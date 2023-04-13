@@ -302,16 +302,25 @@ footer {
 	
 }
 
-.redessociais1 {
 
-	margin-top: -75px;
-	margin-left: 72em;
+
+.redes li {
+  list-style-type: none;
 }
 
-.redessociais2 {
-	margin-top: -63px;
-	margin-left: 77em;
+.redes ul { 
+  margin-top: -50px;
+  display: flex;
+  justify-content: right;
 }
+
+.redes ul a {
+   display: block;
+   padding-left: 20px;
+  
+}
+  
+
 
 
 .tinta05 {
@@ -478,6 +487,9 @@ footer {
   
   #header {
 		display: block !important; 
+    padding-top: 20px;
+    padding-bottom: 1px;
+    margin-top: -50px;
 	  }
  
   #menu {
@@ -594,6 +606,23 @@ footer {
 					  
 		}
 
+  
+  .redes li {
+  list-style-type: none;
+}
+
+.redes ul { 
+  margin-top: 1px;
+  display: flex;
+  justify-content: right;
+}
+
+.redes ul a {
+   display: block;
+   padding-left: 10px;
+  
+  
+}
 
 
 		
