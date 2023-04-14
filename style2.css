@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@1,300&display=swap');
@@ -530,6 +529,9 @@ footer {
   
   #header {
 		display: block !important; 
+    padding-top: 20px;
+    padding-bottom: 1px;
+    margin-top: -50px;
 	  }
  
   #menu {
@@ -592,9 +594,6 @@ footer {
     transform: rotate(-135deg);
     top: -7px;
   }
-
-  
-  
   
   /* daqui pra cima a arrumação do menu */
   
@@ -647,7 +646,7 @@ footer {
 		
 		
 		
-		 .redes li {
+  .redes li {
   list-style-type: none;
 }
 
