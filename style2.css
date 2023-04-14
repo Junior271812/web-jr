@@ -306,15 +306,24 @@ footer {
 	
 }
 
-.redessociais1 {
-
-	margin-top: -75px;
-	margin-left: 83%;
+.redes li {
+  list-style-type: none;
+  
 }
 
-.redessociais2 {
-	margin-top: -63px;
-	margin-left: 90%;
+.redes ul { 
+  margin-top: -50px;
+  display: flex;
+  justify-content: right;
+  
+}
+
+.redes ul a {
+   display: block;
+   padding-left: 20px;
+    position: relative;
+  right: 60px;
+  
 }
 
 
@@ -341,7 +350,7 @@ footer {
 	width: 50px;
 	height: 10px;
 	margin-left: -20px;
-	margin-top: -13px;
+	margin-top: -25px;
 	
 }
 
@@ -448,12 +457,7 @@ footer {
 		display: none !important; 
 	  }
 
-		.redessociaistel1 {
-		display: none !important; 
-	  }
-		.redessociaistel2 {
-		display: none !important; 
-	  }
+	
 
 
 	@media only screen and (max-width: 1080px) {
@@ -498,28 +502,18 @@ footer {
 		display: none !important; 
 	  }
   
-  .redessociais1 {
-		display: none !important; 
-	  }
-	
-  .redessociais2 {
-		display: none !important; 
-	  }
   
-  
-  .redessociaistel1 {
-    display: block !important;
-    margin-top: -7px;
-	  margin-left: 67%;
-    position: absolute;
+		
+		
+		header {
+    
+    background-color: #d3d3d3;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    position: relative;
+    top: -10px;
   }
-  
-  .redessociaistel2 {
-    display: block !important;
-    margin-top: -5px;
-	  margin-left: 85%;
-    position: absolute;
-  }
+		
   
   #menu {
     margin-top: -30px;
@@ -650,6 +644,29 @@ footer {
 					  
 		}
  
+		
+		
+		
+		 .redes li {
+  list-style-type: none;
+}
+
+.redes ul { 
+  margin-top: 1px;
+  display: flex;
+  justify-content: right;
+}
+
+.redes ul a {
+   display: block;
+   padding-left: 10px;
+  position: relative;
+  right: 5px;
+  
+  
+}
+		
+		
 		
 
 		footer {
