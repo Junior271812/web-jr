@@ -293,10 +293,13 @@ margin-right: 10%;
 
 footer {
 	
-	margin-top: -50px;
+	
 	font-size: 12px;
+  margin-top: -165px;
+ 
+	
+  }
 
-}
 
 .contat {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -327,20 +330,36 @@ footer {
 
 
 .tinta05 {
- 	
-	margin-top: -350px;
-	margin-left: 66%;
-	height: 450px;
-	width: 480px;
-	
-	background-image: url("https://roberto-jrs.github.io/web-jr/ROBERT KNESCHKE - ADOBE STOCK.png");
-	background-size: cover;
-
-		font-size: 8px;
+	  
+    font-size: 8px;
 		writing-mode: vertical-rl;
 		text-align: center;
-		
-    }
+  display: flex;
+  margin-left: 99%;
+  
+  position: relative;
+  top: -330px;
+ 
+  }
+
+
+
+.tintona {
+  display: flex;
+  justify-content: right;
+  height: 50px;
+  
+  
+}
+
+.tintona > img {
+ height: 480px;
+	width: 500px;
+  position: relative;
+  top: -400px;
+  
+  }
+
 
 
 
@@ -675,7 +694,7 @@ footer {
 		}
 		
 
-		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2 {
+		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2, .tintona {
 			display: none;
 		}
 	
