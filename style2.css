@@ -475,7 +475,9 @@ footer {
 		display: none !important; 
 	  }
 
-	
+	.contatel {
+ 	 display: none;
+	}
 
 
 	@media only screen and (max-width: 1080px) {
@@ -684,7 +686,16 @@ footer {
   
 }
 		
-		
+		.contat {
+    		display: none;
+  			}
+  
+		.contatel {
+  		display: block;
+		font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+		margin-top: 50px;
+		font-size: 18px;
+			}
 		
 
 		footer {
