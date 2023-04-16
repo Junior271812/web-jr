@@ -7,6 +7,7 @@
 html {
 	
 	background: linear-gradient(to bottom right, #ffffff, #c6c3d6, #8b9792);
+  
       
 	
 }
@@ -250,6 +251,7 @@ main p {
 
 .orçamento {
 	margin-top: 50px;
+  
 }
 
 .servicos {
@@ -282,7 +284,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 	margin-top: -30px;
 	font-family: 'Delicious Handrawn', cursive;
 	color: rgb(189, 115, 32);
-	font-size: 30px;
+	font-size: 20px;
 
 }
 
@@ -290,8 +292,12 @@ font-family: Georgia, 'Times New Roman', Times, serif;
 
 footer {
 	
-	margin-top: -50px;
+	
 	font-size: 12px;
+  margin-top: -165px;
+ 
+	
+  
 
 }
 
@@ -328,21 +334,17 @@ footer {
 
 
 .tinta05 {
-	
- 	margin-top: -350px;
-	margin-left: 66%;
-	height: 450px;
-	width: 480px;
-	
-	background-image: url("https://roberto-jrs.github.io/web-jr/ROBERT KNESCHKE - ADOBE STOCK.png");
-	background-size: cover;
-
-		font-size: 8px;
+	  
+    font-size: 8px;
 		writing-mode: vertical-rl;
 		text-align: center;
-		
-		
-    }
+  display: flex;
+  margin-left: 99%;
+  
+  position: relative;
+  top: -330px;
+ 
+  }
 
 
 
@@ -366,6 +368,22 @@ footer {
 	background-size: cover;
 		
     }
+
+.tintona {
+  display: flex;
+  justify-content: right;
+  height: 50px;
+  
+  
+}
+
+.tintona > img {
+ height: 480px;
+	width: 500px;
+  position: relative;
+  top: -400px;
+  
+  }
 
 	.locais  {
 
@@ -578,17 +596,6 @@ footer {
 			margin-right: 5%;
  		 }
 	
-		.orçamentotel {
-			
-			max-width: 400px;
-     			position: relative;
-      			left: -4px;
-      			top: -20px;
-			
-	}
-	
-	
-		
 	
 		.servicos2 {
 
@@ -626,7 +633,7 @@ footer {
 		}
 		
 
-		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2 {
+		.tinta06, .tinta03, .tinta05, .autoria01, .autoria1, .autoria2, .tintona {
 			display: none;
 		}
 	
