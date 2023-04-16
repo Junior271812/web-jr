@@ -425,7 +425,9 @@ footer {
 		display: none !important; 
 	  }
 
-
+.contatel {
+  display: none;
+}
 	
 
 
@@ -624,7 +626,18 @@ footer {
   
 }
 
-
+  
+  .contat {
+    display: none;
+  }
+  
+.contatel {
+  display: block;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	margin-top: 50px;
+	font-size: 18px;
+	
+}
 		
 
 		footer {
@@ -644,6 +657,8 @@ footer {
 		}
 
 
+  
+  
 		.imgcel {
 			display: flex;
     		flex-direction: center;
@@ -692,3 +707,5 @@ footer {
 	
 	
 	  }
+
+
